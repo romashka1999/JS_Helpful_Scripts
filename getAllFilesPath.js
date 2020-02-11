@@ -23,7 +23,7 @@ const getAllFilesPathSync = (baseUrl, extension = new RegExp('.', 'g'), files = 
 }
 
 /********************** Driver Code *********************/
-console.log(getAllFilesPathSync('./','txt'));
+console.log(getAllFilesPathSync('./','js'));
 
 
 
